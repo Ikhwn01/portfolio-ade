@@ -1,0 +1,20 @@
+{
+  "name": "portopolio-ade",
+  "version": "1.0.0",
+  "description": "Fullstack Portfolio Website with React and Node.js for Ade Sufyansah, S.Kom",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "build": "cd client && npm install && npm run build",
+    "start": "node server/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

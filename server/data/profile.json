@@ -1,0 +1,30 @@
+{
+  "name": "Ade Sufyansah, S.Kom",
+  "fullName": "Ade Sufyansah",
+  "title": "Lulusan S1 Teknik Informatika (S.Kom)",
+  "tagline": "Sarjana Teknik Informatika yang berdedikasi, disiplin, dan memiliki pengalaman kerja nyata di bidang operasional, logistik, dan teknologi informasi.",
+  "about": "Lulusan Sarjana (S1) Program Studi Teknik Informatika Universitas Indraprasta PGRI yang memiliki pengalaman kerja nyata di bidang logistik, pengiriman, operasional, dan otomotif. Terbiasa bekerja disiplin, cekatan, dan bertanggung jawab dengan manajemen waktu yang baik. Memiliki pemahaman teknologi informasi yang solid, komunikasi interpersonal yang baik, serta mampu bekerja secara mandiri maupun berkolaborasi dalam tim. Siap berkontribusi secara aktif dan profesional untuk mendukung operasional dan kemajuan perusahaan.",
+  "location": "Kota Bekasi, Jawa Barat",
+  "email": "vaspanpiyan@gmail.com",
+  "phone": "0851-1771-7823",
+  "avatar": "/profile-ade.jpg",
+  "github": "https://github.com",
+  "linkedin": "https://linkedin.com",
+  "stats": [
+    {
+      "value": "S.Kom",
+      "label": "S1 Teknik Informatika",
+      "description": "Lulusan Universitas Indraprasta PGRI (UNINDRA)"
+    },
+    {
+      "value": "4+",
+      "label": "Pengalaman Kerja",
+      "description": "Logistik, operasional, pengiriman, dan magang otomotif"
+    },
+    {
+      "value": "100%",
+      "label": "Kesiapan Bekerja",
+      "description": "Disiplin, cepat beradaptasi, dan siap berkontribusi segera"
+    }
+  ]
+}

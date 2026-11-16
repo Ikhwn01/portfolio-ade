@@ -1,0 +1,47 @@
+[
+  {
+    "id": "project-skripsi-knn",
+    "title": "Sistem Klasifikasi Kualitas Tahu Menggunakan Metode K-Nearest Neighbors (KNN)",
+    "subtitle": "Studi Kasus Pengendalian Mutu Produksi pada Pabrik Tahu PU",
+    "category": "Data Mining & Desktop Application",
+    "institution": "Universitas Indraprasta PGRI (UNINDRA)",
+    "partner": "Pabrik Tahu PU, Kota Bekasi",
+    "accuracy": "98.33%",
+    "summary": "Aplikasi klasifikasi kualitas tahu otomatis berbasis desktop Java & MySQL untuk menentukan mutu produk (Baik, Sedang, Buruk) berdasarkan kandungan air dan tekstur.",
+    "problem": "Penentuan kualitas tahu di Pabrik PU sebelumnya masih dilakukan secara manual berdasarkan pengamatan subjektif pekerja dan pencatatan terpisah, sehingga berisiko produk berkualitas rendah lolos ke tahap distribusi.",
+    "solution": "Membangun sistem terkomputerisasi dengan algoritma K-Nearest Neighbors (K=5), normalisasi Min-Max, dan perhitungan jarak Euclidean Distance untuk mengelompokkan mutu tahu secara objektif dan konsisten.",
+    "dataset": {
+      "total": "300 Data Sampel",
+      "training": "240 Data Latih",
+      "testing": "60 Data Uji",
+      "attributes": ["Kandungan Air (%)", "Tekstur / Kekerasan (Newton)"],
+      "classes": ["Baik", "Sedang", "Buruk"]
+    },
+    "techStack": [
+      "Java (JDK)",
+      "Java Swing GUI",
+      "MySQL Database",
+      "Maven Build Tool",
+      "NetBeans IDE",
+      "K-Nearest Neighbors (KNN)",
+      "Min-Max Normalization",
+      "Euclidean Distance"
+    ],
+    "highlights": [
+      "Mencapai tingkat akurasi 98.33% (59 dari 60 data uji terklasifikasi dengan benar sesuai kelas aktual)",
+      "Normalisasi otomatis Min-Max untuk mencegah dominasi skala antara kadar air dan tekstur",
+      "Perhitungan jarak Euclidean Distance transparan dengan visualisasi ranking tetangga terdekat",
+      "Pengujian Confusion Matrix terintegrasi untuk evaluasi performa model",
+      "Fitur cetak 4 format laporan resmi ber-kop perusahaan ke dokumen PDF"
+    ],
+    "modules": [
+      "Modul Otentikasi & Hak Akses Admin",
+      "Dashboard Ringkasan Produksi & Status Mutu",
+      "Manajemen Data Latih (240 Data) & Data Uji (60 Data)",
+      "Kalkulator & Engine Klasifikasi KNN (Parameter K=5)",
+      "Evaluasi Akurasi & Confusion Matrix",
+      "Generator Laporan PDF Terintegrasi"
+    ],
+    "featured": true
+  }
+]

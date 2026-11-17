@@ -42,6 +42,50 @@
       "Evaluasi Akurasi & Confusion Matrix",
       "Generator Laporan PDF Terintegrasi"
     ],
+    "screenshots": [
+      {
+        "id": "dashboard",
+        "title": "Dashboard & Ringkasan Mutu",
+        "desc": "Tampilan utama sistem menampilkan ringkasan data latih (240), data uji (60), distribusi mutu (Baik 22, Sedang 18, Buruk 20), dan performa akurasi model KNN.",
+        "src": "/screenshots/dashboard.jpg",
+        "tag": "Menu Utama"
+      },
+      {
+        "id": "data-latih",
+        "title": "Manajemen Data Latih (240 Sampel)",
+        "desc": "Form input data pengukuran fisik kadar air (%) dan tingkat tekstur (N) serta tabel penyimpanan referensi di basis data MySQL.",
+        "src": "/screenshots/data-latih.jpg",
+        "tag": "Database MySQL"
+      },
+      {
+        "id": "data-uji",
+        "title": "Form Data Uji & Klasifikasi",
+        "desc": "Form pencatatan batch produksi tahu dan input parameter pengujian mutu produk baru secara otomatis dengan parameter K=5.",
+        "src": "/screenshots/data-uji.jpg",
+        "tag": "Input Sampel"
+      },
+      {
+        "id": "proses-knn",
+        "title": "Engine Perhitungan Jarak KNN",
+        "desc": "Kalkulator proses perhitungan jarak Euclidean secara transparan dengan normalisasi Min-Max dan perangkingan tetangga terdekat.",
+        "src": "/screenshots/proses-knn.jpg",
+        "tag": "Algoritma KNN"
+      },
+      {
+        "id": "pengujian-akurasi",
+        "title": "Evaluasi Akurasi & Confusion Matrix",
+        "desc": "Tabel perbandingan kelas aktual terhadap hasil prediksi KNN pada 60 sampel uji (58 benar, akurasi 96.67%) beserta matriks konfusi lengkap.",
+        "src": "/screenshots/pengujian-akurasi.jpg",
+        "tag": "Validasi Model"
+      },
+      {
+        "id": "cetak-laporan",
+        "title": "Modul Cetak 4 Format Laporan PDF",
+        "desc": "Fitur ekspor otomatis 4 format laporan resmi dengan kop surat Pabrik Tahu PU, logo, tabel data, nomor halaman, dan tanda tangan pimpinan.",
+        "src": "/screenshots/cetak-laporan.jpg",
+        "tag": "Laporan PDF"
+      }
+    ],
     "featured": true
   }
 ]

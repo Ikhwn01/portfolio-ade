@@ -5,7 +5,7 @@ export const portfolioData = {
     status: "Lulusan Baru (Fresh Graduate) | Siap Bekerja Segera",
     bio: "Lulusan Sarjana (S1) Program Studi Teknik Informatika Universitas Indraprasta PGRI yang memiliki pengalaman kerja nyata di bidang logistik, pengiriman, operasional, dan otomotif. Terbiasa bekerja disiplin, cekatan, dan bertanggung jawab dengan manajemen waktu yang baik. Memiliki pemahaman teknologi informasi yang solid, komunikasi interpersonal yang baik, serta mampu bekerja secara mandiri maupun berkolaborasi dalam tim. Siap berkontribusi secara aktif dan profesional untuk mendukung operasional dan kemajuan perusahaan.",
     location: "Kota Bekasi, Jawa Barat",
-    email: "vaspanpiyan@gmail.com",
+    email: "adesufyansah01@gmail.com",
     phone: "0851-1771-7823",
     avatar: "/profile-ade.jpg",
     stats: [
